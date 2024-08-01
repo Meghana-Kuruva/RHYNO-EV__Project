@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|| contact</title>
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Stylesheet -->
+     <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+  <nav>
+    <div class="nav-center">
+        <!-- Nav header -->
+        <div class="nav-header">
+            <h4 class="logo">RHYNO <span>EV</span></h4>
+            <button class="nav-toggle" type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <!-- End of nav header -->
+        <!-- Nav links -->
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item dropdown"><a href="products.html" class="nav-link dropdown-toggle" id="productsDropdown">Products  </a>
+                <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                    <li><a href="product1.html" class="dropdown-item"> Rhyno SE03 lite</a></li>
+                    <li><a href="product2.html" class="dropdown-item"> Rhyno SE03 </a></li>
+                    <li><a href="product3.html" class="dropdown-item"> Rhyno SE03 Max</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html" class="nav-link">Contact</a></li>
+            <li><a href="rentals.html" class="nav-link">Rentals</a></li>
+            <li><a href="sign-up.html" class="nav-link"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </div>
+</nav>
+<header class="contact-header contact">
+  <div class="container">
+    <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <p>We are here to assist you with any questions or concerns you may have. Please feel free to reach out to us through any of the following methods.</p>
+        <div class="info-item">
+          <i class="fa-solid fa-briefcase"></i>
+            <div>
+                <h3>Office</h3>
+                <p>Rhyno Wheels Private Limited, Near UG hostel gate #2, Gandhinagar, Gujarat, India.</p>
+            </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-phone"></i>
+            <div>
+                <h3>Mobile</h3>
+                <p>+91-9023987528</p>
+            </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-regular fa-envelope"></i>
+            <div>
+                <h3>Email</h3>
+                <p>info@rhyno.in</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</div>
+</header>
+
+    <!-- footer-->
+    <footer class="footer">
+        <div class="footer-section">
+          <h3>Career</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Website Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Rhyno Wheels Private Limited, Near UG hostel gate #2, Gandhinagar, Gujarat, India</p>
+          <p><a href="tel:+919023987528">+91-9023987528</a></p>
+          <p><a href="mailto:info@rhyno.in">info@rhyno.in</a></p>
+          <div class="social-icons">
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/index.php/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Subscribe to our Newsletter</h3>
+          <p>Subscribe now and join our growing community of EV's committed to lifelong awareness</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-bottom">
+          <p>© RHYNO EV. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <script src="./app.js"></script> 
+</body>
+</html>
