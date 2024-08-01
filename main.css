@@ -1440,15 +1440,25 @@ textarea {
     color:var(--clr-black-3);
 }
 
-.signup {
+.signup button {
     text-align: center;
-    margin-top: 1rem;
+    background:var(--clr-primary-1);
+    opacity:0.6;
     font-size: 0.9rem;
 }
 
-.signup a {
-    color: var(--clr-yellow-1);
+.signup p {
+    padding-top:2.5rem;
+    color: var(--clr-primary-1);
     text-decoration: none;
+}
+
+
+
+.signup button:hover {
+    background:var(--clr-yellow-1);
+    color:var(--clr-black-3);
+    opacity:1;
 }
 
 .signup a:hover {
